@@ -1,0 +1,15 @@
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: #181823;
+  border-bottom: 1px solid #2d2727;
+  box-shadow: 0px 2px 8px #2d2727;
+
+  .header__logo a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,22 @@
+.role-card {
+  border: 1px solid #faf0e4;
+  margin-bottom: 12px;
+  padding: 12px 24px;
+
+  h5 {
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+
+  .role-permission-card {
+    margin-top: 12px;
+
+    .role-permission-card__item {
+      max-width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 12px 0;
+    }
+  }
+}
